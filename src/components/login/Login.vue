@@ -8,7 +8,6 @@
         <!--tab标签-->
         <el-tabs v-model = "activeName" @tab-click = "handleClick" class = "users">
           <el-tab-pane label = "管理员登陆" name = "admin"></el-tab-pane>
-          <el-tab-pane label = "游客登陆" name = "guest"></el-tab-pane>
         </el-tabs>
 
         <el-form-item prop = "username">
